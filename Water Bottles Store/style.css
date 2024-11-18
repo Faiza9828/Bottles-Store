@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+/* header section -----------------*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: black;
+    color: white;
+    z-index: 100;
+}
+.logo {
+    margin-right: 100px;
+}
+.logo span {
+    color: red;
+}
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;5
+    position: relative;
+  }
+  .navbar a:hover {
+    color: red
+  }
+
+  home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.home-content h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    width: 100wh;
+    height: 40vh;
+    margin-top: 80px;
+    margin-left: -10px;
+    margin-right:-10px ;
+    padding-top: 50px;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    box-shadow: 0 0 1rem black;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 2rem;
+    transition: 5s ease;
+}
+.btn:hover {
+    box-shadow: none;
+}
+
+.index {
+    background-image: url("img/home.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 10;
+    padding-left: 20;
+}
+.index-content {
+    text-align: center;
+    padding: 240px;
+}
+.index-content h1 {
+    font-size: 3.5rem;
+    font-weight: 20rem;
+}
+.categories {
+    text-align: center;
+    gap: 2rem;
+    padding: 50px;
+    padding-top: 100px;
+    margin-bottom: 2rem;
+}
+.categories h1 {
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+.categories p {
+    margin-bottom: 2rem;
+}
+.category-content img {
+    
+    width: 20vw;
+    height: 40vh;
+}
+  
+  /* about section -----------------*/
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 70px;
+  }
+  .about-img img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    margin-right: -80px;
+  }
+ .about-content h2 {
+    text-align: leftt;
+    line-height: 2.2;
+    font-size: 2rem;
+    font-weight: 3rem;
+ } 
+ .about-content h4 {
+    line-height: 2.0;
+   
+    font-size: 1rem;
+    font-weight: 1rem;
+ }
+  .about-content h2 span {
+    color: red
+}
+ 
+/* catalog section -----------------*/
+.products {
+    text-align: center;
+    gap: 2rem;
+    padding: 200px;
+    padding-top: 50px;
+}
+.products h3 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 50px;
+}
+.product-details {
+    display: inline-block;
+    text-align: center;
+}
+.product-details img {
+    width: 30vw;
+    height: 50vh;
+}
+.product-details h3 {
+    font-size: 1.17rem;
+    line-height: 1.5;
+}
+.product-details h2 {
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 5rem;
+}
+
+
+ /* details section -----------------*/
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 60px;
+    margin-left: 401
+}
+.detailed-img img {
+    width: 500px;
+    height: 100vh;
+
+}
+.detail-content h2 {
+    line-height: 1.5;
+    font-weight: 3rem;
+}
+.detail-content h3 {
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1.5;
+}
+.detail-content h4 {
+    line-height: 1.2;
+    padding-top: 5px;
+}
+
+.detail-content h6 {
+    display: inline;
+    font-size: 15px;
+}
+.relative {
+    text-align: center;
+    gap: 2rem;
+    padding: 200px;
+    padding-top: 50px;
+}
+.related-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 50px;
+}
+.relative h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.related-products-content {
+    display: inline-block;
+    text-align: center;
+}
+.related-products-content img {
+    width: 30vw;
+    height: 50vh;
+}
+.related-products-content h3 {
+    line-height: 1.5;
+}
+.related-products-content h2 {
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 5rem;
+}
+
+ /* contact section -----------------*/
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    margin-left: 90px;
+}
+.contact-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.contact-form form {
+    width: 100%;
+   
+}
+.contact-form h2 {
+    line-height: 2.2;
+    font-size: 2rem;
+    font-weight: 3rem;
+}
+form input, form textarea {
+    width: 100%;
+    height: 50%;
+    border: 0;
+    outline: none;
+    background: rgb(223, 216, 216);
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.contact-details {
+    width: 25vw;
+    height: 43vh;
+    object-fit: cover;
+    border: 20px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:  rgb(223, 216, 216);
+    margin-top: 4.5rem;
+    margin-left: 4rem;
+    padding: 30px;
+}
+.contact-details p {
+   font-size: 15px;
+}
+
+/* footer section -----------------*/
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 7rem 10%;
+    margin-right: -10px;
+    text-align: center;
+    line-height: 3rem;
+    padding-left: 300px;
+}
+.footer-navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;5
+    position: relative;
+}
+.footer-navbar a:hover {
+    color: red;
+}
+.social-icons a {
+    text-decoration: none;
+    margin-right: 30px;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+}
+.social-icons a:hover {
+    color: red;
+}
+.footer-iconTop a {
+    display: inline-flex;
+    padding: 1rem;
+    background: white;
+    color: black;
+    border-radius: .8rem;
+    transition: 1s ease;
+}
+.footer-iconTop a:hover {
+    box-shadow: 0 0 2rem;
+}
